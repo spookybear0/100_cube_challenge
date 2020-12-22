@@ -133,11 +133,8 @@ async def main():
                 dead = True
         if gui:
             completedlevelsvar.set(str(int(completedlevelsvar) + 1))
-    # random extreme demons (maybe other types soon)
 
 if __name__ == "__main__":
-    #asyncio.set_event_loop(asyncio.new_event_loop())
-    #loop = asyncio.get_event_loop()
     if gui:
         w.mainloop()
     else:
