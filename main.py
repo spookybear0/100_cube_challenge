@@ -54,7 +54,7 @@ if gui:
     completedlevelsvar = tk.StringVar()
     w.geometry("800x600")
     w.configure(bg="#252525")
-    w.title("100 Lives Challenge")
+    w.title("100 Cube Challenge")
     w.resizable(False, False)
     w.protocol("WM_DELETE_WINDOW", on_close)
     
